@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quản lý thư viện</title>
+</head>
+<body>
+  <h1>Thư viện ABC</h1>
+
+  <h2>Danh sách sách</h2>
+  <table>
+    <tr>
+      <th>ID sách</th>
+      <th>Tên sách</th>
+      <th>Tác giả</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Lập Trình Và Cuộc Sống</td>
+      <td>Jeff Atwood</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Code Dạo Kí Sự</td>
+      <td>Phạm Huy Hoàng</td>
+    </tr>
+    <!-- Thêm các hàng cho các sách khác -->
+  </table>
+
+  <h2>Danh sách thành viên</h2>
+  <table>
+    <tr>
+      <th>ID thành viên</th>
+      <th>Tên thành viên</th>
+      <th>Email</th>
+      <th>Số điện thoại</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Nguyễn Văn A</td>
+      <td>abc@example.com</td>
+      <td>1234567890</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Trần Thị B</td>
+      <td>def@example.com</td>
+      <td>0987654321</td>
+    </tr>
+    <!-- Thêm các hàng cho các thành viên khác -->
+  </table>
+
+  <h2>Mượn sách</h2>
+  <form>
+    <label for="book-select">Chọn sách:</label>
+    <select id="book-select">
+      <option value="1">Lập Trình Và Cuộc Sống</option>
+      <option value="2">Code Dạo Kí Sự</option>
+      <!-- Thêm các tùy chọn cho các sách khác -->
+    </select><br><br>
+  
+    <label for="member-select">Chọn thành viên:</label>
+    <select id="member-select">
+      <option value="1">Nguyễn Văn A</option>
+      <option value="2">Trần Thị B</option>
+      <!-- Thêm các tùy chọn cho các thành viên khác -->
+    </select><br><br>
+
+    <input type="submit" value="Mượn sách">
+  </form>
+</body>
+</html>
